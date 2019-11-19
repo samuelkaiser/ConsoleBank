@@ -29,7 +29,7 @@ namespace ConsoleBank.Core.Models
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            Balance += amount; // intentionally incorrect code
+            Balance -= amount; // intentionally incorrect code
         }
 
         public void Credit(double amount)
